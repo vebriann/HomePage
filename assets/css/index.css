@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+:root {
+    --primary-color: #122D5A;
+    --secondary-color: #B2B0BF;
+    --third-color: #2F4570;
+    --font-size-1: 52px;
+    --font-size-2: 42px;
+    --font-size-3: 22px;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth
+}
+
+.navbar .navbar-brand {
+    font-weight: 900;
+    color: var(--primary-color);
+}
+
+.btn-primary {
+    background-color: var(--primary-color) !important;
+    border-color: var(--primary-color) !important;
+}
+
+
+header {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+header .container h1{
+    color: var(--primary-color);
+}
+
+header .container p{
+    color: var(--secondary-color);
+}
+
+header .container .header-title {
+    font-size: var(--font-size-1);
+    font-weight: 900;
+}
+
+header .container form input:focus {
+    box-shadow: none;
+}
+
+
+.navbar .navbar-nav .nav-item .nav-link.active,
+.navbar .navbar-nav .nav-item .nav-link:hover {
+    font-weight: 700;
+    color: var(--primary-color);
+}
+
+
+.section1 .container a .col-md-6 .user .profile .text-secondary {
+    font-size: 14px;
+}
+
+.avatar {
+    width: 60px;
+    height: 60px;
+    object-fit: cover !important;
+}
+
+.section1 .container .row .col-md-6 {
+    color: black;
+}
+
+.hero-post .hero-post-title {
+    font-size: var(--font-size-2);
+    font-weight: 700;
+}
+
+.img-avatar {
+    width: 300px;
+    height: 200px;
+}
+
+.section2 .container .row .col-md-4 {
+    transition: 0.3ms;
+}
+
+.section2 .container .row .col-md-4:hover {
+    transform: translateY(-10px);
+}
